@@ -1,0 +1,25 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#contenido {
+  display: flex;
+	flex-direction: column;
+}
+
+#contenido > h1{
+  background: #5b7989;
+  text-align: left;
+  padding: 20px;
+  margin-top: -7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#imgCentro {
+  margin-top: -20px;
+  background: #82c3a6;
+  padding: 20px;
+  text-align: center;
+}
