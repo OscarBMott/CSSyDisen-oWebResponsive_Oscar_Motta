@@ -10,15 +10,27 @@ body {
 
 #encabezado {
   background: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 a {
   color: white;
+  text-decoration: none;
+}
+
+.menu {
+  border-bottom: 2px solid;
+  padding-bottom: .0em;
 }
 
 #menu div {
   float: right;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px #02010a;
   color: white;
 	margin: 30px;
   margin-top: 10px;
@@ -27,7 +39,7 @@ a {
 
 div #titulo{
   float: left;
-  text-align: left;
+  text-align: center;
 	width: 20%;
 }
 
