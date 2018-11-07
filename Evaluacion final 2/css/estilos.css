@@ -10,19 +10,26 @@ body {
 
 #encabezado {
   background: #5b7989;
-  text-align: left;
-  padding: 20px;
-  margin-top: -7px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  display: inline;
 }
 
 a {
-  display: inline;
+  color: white;
 }
 
+#menu div {
+  float: right;
+  text-align: center;
+  color: white;
+	margin: 30px;
+  margin-top: 10px;
+	width: 5%;
+}
 
+div #titulo{
+  float: left;
+  text-align: left;
+	width: 20%;
+}
 
 #imgCentro {
   margin-top: -20px;
