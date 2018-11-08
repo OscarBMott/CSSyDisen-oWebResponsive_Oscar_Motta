@@ -1,6 +1,11 @@
 body {
+  background-color: #02010a;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+img {
+  box-shadow: 2px 2px #02010a;
 }
 
 #contenido {
