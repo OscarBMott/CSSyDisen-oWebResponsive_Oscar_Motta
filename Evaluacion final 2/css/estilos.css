@@ -1,16 +1,12 @@
 body {
   background-color: #02010a;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-img {
-  box-shadow: 2px 2px #02010a;
 }
 
 #contenido {
   display: flex;
 	flex-direction: column;
+  width: 900px;
+  margin: 0 auto;
 }
 
 #encabezado {
@@ -33,7 +29,7 @@ a {
   float: right;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  font-size: 30px;
+  font-size: 14px;
   font-weight: bold;
   text-shadow: 2px 2px #02010a;
   color: white;
@@ -53,4 +49,14 @@ div #titulo{
   background: #82c3a6;
   padding: 20px;
   text-align: center;
+}
+
+.imgPrincipal {
+  box-shadow: 2px 2px #02010a;
+  width: 90%;
+}
+
+#imgSecundaria {
+  display: flex;
+  flex-direction: row;
 }
