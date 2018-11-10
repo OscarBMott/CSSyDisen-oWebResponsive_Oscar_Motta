@@ -56,19 +56,34 @@ div #titulo{
   width: 90%;
 }
 
-#imgSecundarias {
+.imgSecundaria {
   display: flex;
-  flex-direction: row;
+	flex-direction: row;
   background: #d5c75f;
 }
 
-.imgPaisajeSecundaria {
-  padding: 30px;
-  padding-left: 40px;
-  flex-grow: 1;
+.imgSecundaria > div {
+  text-align: center;
+	padding: 17px;
+	margin: 10px;
+	width: 50%;
 }
 
-.imgRetratoSecundario {
-  padding: 30px;
-  padding-right: 40px;
+.imgPaisaje {
+  box-shadow: 2px 2px #02010a;
+  border: 1px solid;
+	width: 350px;
+  transition: 1s;
+}
+
+.imgRetrato {
+  box-shadow: 2px 2px #02010a;
+  border: 1px solid;
+  width: 350px;
+}
+
+.imgPaisaje:hover {
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+  transform: rotate(10deg);
 }
