@@ -63,10 +63,6 @@ div #titulo{
 }
 
 .imgPaisajeSecundaria {
-  width: 90px;
-}
-
-.imgPaisajeSecundaria {
   padding: 30px;
   padding-left: 40px;
   flex-grow: 1;
