@@ -56,7 +56,23 @@ div #titulo{
   width: 90%;
 }
 
-#imgSecundaria {
+#imgSecundarias {
   display: flex;
   flex-direction: row;
+  background: #d5c75f;
+}
+
+.imgPaisajeSecundaria {
+  width: 90px;
+}
+
+.imgPaisajeSecundaria {
+  padding: 30px;
+  padding-left: 40px;
+  flex-grow: 1;
+}
+
+.imgRetratoSecundario {
+  padding: 30px;
+  padding-right: 40px;
 }
