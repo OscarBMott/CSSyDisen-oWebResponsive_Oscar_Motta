@@ -72,6 +72,7 @@ div #titulo{
 .imgPaisaje {
   box-shadow: 2px 2px #02010a;
   border: 1px solid;
+  margin: 10px;
 	width: 350px;
   transition: 1s;
 }
@@ -79,11 +80,39 @@ div #titulo{
 .imgRetrato {
   box-shadow: 2px 2px #02010a;
   border: 1px solid;
+  margin: 10px;
   width: 350px;
+  transition: 1s;
 }
 
 .imgPaisaje:hover {
   box-shadow: 2px 2px #82c3a6;
   border: 2px solid;
   transform: rotate(10deg);
+}
+
+.imgRetrato:hover {
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+  transform: translate(20px,-5px);
+}
+
+.pieDePagina {
+  display: flex;
+  flex-direction: row;
+  background: #C6d5c5;
+}
+
+.pieDePagina > div {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  width: 25%;
+}
+
+.redes {
+  width: 6%;
 }
