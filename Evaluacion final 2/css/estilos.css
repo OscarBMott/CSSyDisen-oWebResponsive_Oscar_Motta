@@ -62,6 +62,33 @@ a {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  #contenido {
+    display: flex;
+  	flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background: #5b7989;
+    text-align: right;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .menu > div {
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 2px 2px #02010a;
+    color: white;
+    width: 100%;
+  }
+}
+
 #imgCentro {
   background: #82c3a6;
   padding: 20px;
