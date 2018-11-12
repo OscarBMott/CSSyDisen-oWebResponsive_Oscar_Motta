@@ -1,5 +1,19 @@
 body {
   background-color: #02010a;
+  animation-name: rebote;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes rebote {
+    0%{
+      margin-top: 100%;
+    }
+    75%{
+      margin-top: -2%;
+    }
+    100%{
+      margin-top: 0.4%;
+    }
 }
 
 #contenido {
@@ -9,43 +23,46 @@ body {
   margin: 0 auto;
 }
 
-#encabezado {
-  background: #5b7989;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
 a {
   color: white;
   text-decoration: none;
 }
 
 .menu {
-  border-bottom: 2px solid;
-  padding-bottom: .0em;
+  display: flex;
+  flex-direction: row;
+  background: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-#menu div {
-  float: right;
-  text-align: center;
+.menu > div {
   font-family: 'Dancing Script', cursive;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: bold;
   text-shadow: 2px 2px #02010a;
   color: white;
 	margin: 30px;
   margin-top: 10px;
-	width: 5%;
+	width: 50%;
 }
 
-div #titulo{
-  float: left;
-  text-align: center;
-	width: 20%;
+.titulo {
+  padding-top: 25px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 25px;
+}
+
+.link {
+  padding-left: 30px;
+  text-decoration: underline;
 }
 
 #imgCentro {
-  margin-top: -20px;
   background: #82c3a6;
   padding: 20px;
   text-align: center;
@@ -100,6 +117,8 @@ div #titulo{
 .pieDePagina {
   display: flex;
   flex-direction: row;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background: #C6d5c5;
 }
 
